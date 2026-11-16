@@ -1,0 +1,443 @@
+[
+  {
+    "timestamp": "2026-10-05T15:56:36",
+    "initial_symptoms": "6",
+    "recognized_symptoms": [],
+    "duration": "3days",
+    "severity": "mild",
+    "follow_up_answers": [
+      {
+        "group": "skin",
+        "symptom": "abnormal appearing skin",
+        "question": "Do you have abnormal appearing skin?",
+        "answer": "yes"
+      },
+      {
+        "group": "systemic",
+        "symptom": "chills",
+        "question": "Do you have chills or shivering?",
+        "answer": "yes"
+      },
+      {
+        "group": "gastrointestinal",
+        "symptom": "sharp abdominal pain",
+        "question": "Do you have sharp abdominal pain?",
+        "answer": "yes"
+      },
+      {
+        "group": "respiratory",
+        "symptom": "shortness of breath",
+        "question": "Do you have shortness of breath or difficulty breathing?",
+        "answer": "yes"
+      },
+      {
+        "group": "urinary",
+        "symptom": "retention of urine",
+        "question": "Do you have retention of urine?",
+        "answer": "yes"
+      },
+      {
+        "group": "pain",
+        "symptom": "painful urination",
+        "question": "Do you have painful urination?",
+        "answer": "yes"
+      }
+    ],
+    "top_classification": "parasitic disease",
+    "top_probability": 0.7990753374032269,
+    "top_5": [
+      {
+        "disease": "parasitic disease",
+        "probability": 0.7990753374032269
+      },
+      {
+        "disease": "prostatitis",
+        "probability": 0.11925622994911915
+      },
+      {
+        "disease": "ascending cholangitis",
+        "probability": 0.02671371691757208
+      },
+      {
+        "disease": "epididymitis",
+        "probability": 0.022459746111273503
+      },
+      {
+        "disease": "pinworm infection",
+        "probability": 0.007050210454537828
+      }
+    ],
+    "red_flags": [
+      "shortness of breath"
+    ],
+    "language": "hi"
+  },
+  {
+    "timestamp": "2026-10-07T12:24:52",
+    "initial_symptoms": "i have headache and cold",
+    "recognized_symptoms": [
+      "headache"
+    ],
+    "duration": "3 days",
+    "severity": "mild",
+    "follow_up_answers": [
+      {
+        "group": "head_neuro",
+        "symptom": "dizziness",
+        "question": "Do you feel dizzy?",
+        "answer": "yes"
+      },
+      {
+        "group": "skin",
+        "symptom": "foot or toe swelling",
+        "question": "Do you have foot or toe swelling?",
+        "answer": "yes"
+      },
+      {
+        "group": "pain",
+        "symptom": "ear pain",
+        "question": "Do you have ear pain?",
+        "answer": "no"
+      },
+      {
+        "group": "systemic",
+        "symptom": "focal weakness",
+        "question": "Do you have focal weakness?",
+        "answer": "yes"
+      },
+      {
+        "group": "eye",
+        "symptom": "diminished vision",
+        "question": "Do you have diminished vision?",
+        "answer": "yes"
+      },
+      {
+        "group": "gastrointestinal",
+        "symptom": "sharp abdominal pain",
+        "question": "Do you have sharp abdominal pain?",
+        "answer": "no"
+      }
+    ],
+    "top_classification": "intracerebral hemorrhage",
+    "top_probability": 0.6401320243135717,
+    "top_5": [
+      {
+        "disease": "intracerebral hemorrhage",
+        "probability": 0.6401320243135717
+      },
+      {
+        "disease": "vasculitis",
+        "probability": 0.2301399379399729
+      },
+      {
+        "disease": "cerebral edema",
+        "probability": 0.03458386500524151
+      },
+      {
+        "disease": "bell palsy",
+        "probability": 0.016849481489104253
+      },
+      {
+        "disease": "hydatidiform mole",
+        "probability": 0.01325419144644384
+      }
+    ],
+    "red_flags": [],
+    "language": "en",
+    "input_mode": "text"
+  },
+  {
+    "timestamp": "2026-11-14T15:47:35",
+    "initial_symptoms": "i have red in peeing",
+    "recognized_symptoms": [],
+    "duration": "3 days",
+    "severity": "severe",
+    "follow_up_answers": [
+      {
+        "group": "skin",
+        "symptom": "abnormal appearing skin",
+        "question": "Do you have abnormal appearing skin?",
+        "answer": "yes"
+      },
+      {
+        "group": "systemic",
+        "symptom": "chills",
+        "question": "Do you have chills or shivering?",
+        "answer": "no"
+      },
+      {
+        "group": "pain",
+        "symptom": "leg pain",
+        "question": "Do you have leg pain?",
+        "answer": "yes"
+      },
+      {
+        "group": "head_neuro",
+        "symptom": "headache",
+        "question": "Do you have a headache?",
+        "answer": "no"
+      },
+      {
+        "group": "respiratory",
+        "symptom": "cough",
+        "question": "Do you have a cough?",
+        "answer": "no"
+      },
+      {
+        "group": "nasal",
+        "symptom": "nasal congestion",
+        "question": "Is your nose blocked or congested?",
+        "answer": "no"
+      }
+    ],
+    "top_classification": "peripheral arterial embolism",
+    "top_probability": 0.3420588059708007,
+    "top_5": [
+      {
+        "disease": "peripheral arterial embolism",
+        "probability": 0.3420588059708007
+      },
+      {
+        "disease": "venous insufficiency",
+        "probability": 0.15550239199802413
+      },
+      {
+        "disease": "deep vein thrombosis (dvt)",
+        "probability": 0.03825429736680912
+      },
+      {
+        "disease": "restless leg syndrome",
+        "probability": 0.031339944625820466
+      },
+      {
+        "disease": "pulmonary embolism",
+        "probability": 0.02409491028694449
+      }
+    ],
+    "red_flags": [],
+    "language": "en",
+    "input_mode": "chat"
+  },
+  {
+    "timestamp": "2026-11-14T16:34:22",
+    "initial_symptoms": "boold coming from  nose",
+    "recognized_symptoms": [],
+    "duration": "3 day",
+    "severity": "moderate",
+    "follow_up_answers": [
+      {
+        "group": "nasal",
+        "symptom": "nasal congestion",
+        "question": "Is your nose blocked or congested?",
+        "answer": "yes"
+      },
+      {
+        "group": "eye",
+        "symptom": "diminished vision",
+        "question": "Do you have diminished vision?",
+        "answer": "yes"
+      },
+      {
+        "group": "respiratory",
+        "symptom": "shortness of breath",
+        "question": "Do you have shortness of breath or difficulty breathing?",
+        "answer": "yes"
+      },
+      {
+        "group": "skin",
+        "symptom": "leg swelling",
+        "question": "Do you have leg swelling?",
+        "answer": "no"
+      },
+      {
+        "group": "throat",
+        "symptom": "sore throat",
+        "question": "Do you have a sore throat?",
+        "answer": "no"
+      },
+      {
+        "group": "gastrointestinal",
+        "symptom": "diarrhea",
+        "question": "Do you have diarrhea or loose stools?",
+        "answer": "yes"
+      }
+    ],
+    "top_classification": "lactose intolerance",
+    "top_probability": 0.894237771501379,
+    "top_5": [
+      {
+        "disease": "lactose intolerance",
+        "probability": 0.894237771501379
+      },
+      {
+        "disease": "glucocorticoid deficiency",
+        "probability": 0.07523924312851858
+      },
+      {
+        "disease": "conjunctivitis due to virus",
+        "probability": 0.004658426994827385
+      },
+      {
+        "disease": "tracheitis",
+        "probability": 0.002284673908610171
+      },
+      {
+        "disease": "liver disease",
+        "probability": 0.002030102374592323
+      }
+    ],
+    "red_flags": [
+      "shortness of breath"
+    ],
+    "language": "en",
+    "input_mode": "chat"
+  },
+  {
+    "timestamp": "2026-11-14T16:42:47",
+    "initial_symptoms": "boold",
+    "recognized_symptoms": [],
+    "duration": "1week",
+    "severity": "mild",
+    "follow_up_answers": [
+      {
+        "group": "skin",
+        "symptom": "abnormal appearing skin",
+        "question": "Do you have abnormal appearing skin?",
+        "answer": "yes"
+      },
+      {
+        "group": "systemic",
+        "symptom": "chills",
+        "question": "Do you have chills or shivering?",
+        "answer": "yes"
+      },
+      {
+        "group": "gastrointestinal",
+        "symptom": "sharp abdominal pain",
+        "question": "Do you have sharp abdominal pain?",
+        "answer": "yes"
+      },
+      {
+        "group": "respiratory",
+        "symptom": "shortness of breath",
+        "question": "Do you have shortness of breath or difficulty breathing?",
+        "answer": "yes"
+      },
+      {
+        "group": "urinary",
+        "symptom": "retention of urine",
+        "question": "Do you have retention of urine?",
+        "answer": "no"
+      },
+      {
+        "group": "pain",
+        "symptom": "pain or soreness of breast",
+        "question": "Do you have pain or soreness of breast?",
+        "answer": "no"
+      }
+    ],
+    "top_classification": "sepsis",
+    "top_probability": 0.3800977196943405,
+    "top_5": [
+      {
+        "disease": "sepsis",
+        "probability": 0.3800977196943405
+      },
+      {
+        "disease": "prostatitis",
+        "probability": 0.0952741616038527
+      },
+      {
+        "disease": "breast infection (mastitis)",
+        "probability": 0.06866461518353768
+      },
+      {
+        "disease": "acute respiratory distress syndrome (ards)",
+        "probability": 0.053152577079312265
+      },
+      {
+        "disease": "esophageal cancer",
+        "probability": 0.03624482611689266
+      }
+    ],
+    "red_flags": [
+      "shortness of breath"
+    ],
+    "language": "en",
+    "input_mode": "chat"
+  },
+  {
+    "timestamp": "2026-11-14T17:40:16",
+    "initial_symptoms": "headache",
+    "recognized_symptoms": [
+      "headache"
+    ],
+    "duration": "1weak",
+    "severity": "mild",
+    "follow_up_answers": [
+      {
+        "group": "head_neuro",
+        "symptom": "dizziness",
+        "question": "Do you feel dizzy?",
+        "answer": "yes"
+      },
+      {
+        "group": "skin",
+        "symptom": "foot or toe swelling",
+        "question": "Do you have foot or toe swelling?",
+        "answer": "no"
+      },
+      {
+        "group": "pain",
+        "symptom": "pain in eye",
+        "question": "Do you have pain in eye?",
+        "answer": "yes"
+      },
+      {
+        "group": "gastrointestinal",
+        "symptom": "nausea",
+        "question": "Do you feel nauseous?",
+        "answer": "no"
+      },
+      {
+        "group": "eye",
+        "symptom": "diminished vision",
+        "question": "Do you have diminished vision?",
+        "answer": "yes"
+      },
+      {
+        "group": "nasal",
+        "symptom": "nasal congestion",
+        "question": "Is your nose blocked or congested?",
+        "answer": "yes"
+      }
+    ],
+    "top_classification": "temporomandibular joint disorder",
+    "top_probability": 0.13452477468496063,
+    "top_5": [
+      {
+        "disease": "temporomandibular joint disorder",
+        "probability": 0.13452477468496063
+      },
+      {
+        "disease": "conjunctivitis due to virus",
+        "probability": 0.1331398414034497
+      },
+      {
+        "disease": "hydatidiform mole",
+        "probability": 0.1266380328037782
+      },
+      {
+        "disease": "iridocyclitis",
+        "probability": 0.09268980224740932
+      },
+      {
+        "disease": "trigeminal neuralgia",
+        "probability": 0.05782328163277826
+      }
+    ],
+    "red_flags": [],
+    "language": "en",
+    "input_mode": "chat"
+  }
+]
